@@ -19,11 +19,12 @@
             android:value="AIzaSyBEMkM4tXPGJsbm7Nrr_ZXXkj_PZr4z2_g" />
 
         <activity android:name=".Register" />
-        <activity android:name=".MainUI"></activity>
+        <activity android:name=".Earning" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Profile" />
-        <activity android:name=".Earning">
+        <activity android:name=".Review"></activity>
+        <activity android:name=".MainUI">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

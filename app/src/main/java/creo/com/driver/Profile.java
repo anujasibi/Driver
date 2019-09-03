@@ -52,7 +52,7 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Profile.this, Review.class));
-                Animatoo.animateSlideDown(Profile.this);
+                Animatoo.animateFade(Profile.this);
 
             }
         });

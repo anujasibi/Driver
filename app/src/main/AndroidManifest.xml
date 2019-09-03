@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".CustomerDetails"></activity>
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -19,11 +19,14 @@
             android:value="AIzaSyBEMkM4tXPGJsbm7Nrr_ZXXkj_PZr4z2_g" />
 
         <activity android:name=".Register" />
+        <activity android:name=".check" />
+        <activity android:name=".PaymentList" />
         <activity android:name=".Earning" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".card" />
         <activity android:name=".Profile" />
-        <activity android:name=".Review"></activity>
+        <activity android:name=".Review" />
         <activity android:name=".MainUI">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

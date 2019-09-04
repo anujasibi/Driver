@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
@@ -23,6 +24,7 @@ public class Profile extends AppCompatActivity {
     Context mContext=this;
     private RelativeLayout rl,rlt;
     ScrollView scrollView;
+    TextView edit;
 
 
     @SuppressLint("WrongConstant")
@@ -39,6 +41,14 @@ public class Profile extends AppCompatActivity {
         pojo.add(notificationPojo1);
 
         recyclerView = findViewById(R.id.rer);
+        edit=findViewById(R.id.edit);
+        edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Profile.this, EditProfile.class));
+                Animatoo.animateSwipeRight(Profile.this);
+            }
+        });
         scrollView=findViewById(R.id.scroll);
         scrollView.post(new Runnable() {
             @Override

@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditProfile"></activity>
-        <activity android:name=".CustomerDetails" />
+
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -20,15 +19,21 @@
             android:value="AIzaSyBEMkM4tXPGJsbm7Nrr_ZXXkj_PZr4z2_g" />
 
         <activity android:name=".Register" />
+        <activity android:name=".MainUI" />
+        <activity android:name=".ForgotPassword"></activity>
+        <activity android:name=".EditProfile" />
+        <activity android:name=".CustomerDetails" />
         <activity android:name=".check" />
         <activity android:name=".PaymentList" />
         <activity android:name=".Earning" />
+        <activity android:name=".Receipt" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".splash" />
         <activity android:name=".card" />
         <activity android:name=".Profile" />
         <activity android:name=".Review" />
-        <activity android:name=".MainUI">
+        <activity android:name=".otpverify">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

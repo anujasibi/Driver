@@ -20,7 +20,7 @@ public class PaymentList extends AppCompatActivity {
         getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment_list);
-        rl=findViewById(R.id.rl);
+          rl=findViewById(R.id.rl);
         rl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
